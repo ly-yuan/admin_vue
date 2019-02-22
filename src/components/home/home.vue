@@ -1,16 +1,16 @@
 <template>
-  <div id="app">
-   app component
-   <router-view></router-view>
+  <div>
+    <p>home组件</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  data () {
+    return {}
+  }
 }
 </script>
 
 <style>
-
 </style>
